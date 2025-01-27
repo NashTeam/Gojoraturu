@@ -1,1 +1,128 @@
-yoi
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar FRESH REST API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .endpoint-box {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            background-color: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .endpoint-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">FRESH APIs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/dashboard">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/list-feature">List Feature</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">WhatsApp Me</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h4 class="text-center">Daftar Feature Fresh Rest API</h4>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  Tiktok Downloader</h5>
+                <p>Kamu dapat mendownload video ataupun audio dari platform Tiktok</p>
+                <a href="/tiktok?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  Spotify Downloader</h5>
+                <p>Memungkinkan anda untuk mendownload track dari platform Spotify</p>
+                <a href="/spotify?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  Facebook Downloader</h5>
+                <p>Anda dapat mendownload video, reels, dll, dari platform Facebook</p>
+                <a href="/facebook?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  Instagram Downloader</h5>
+                <p>Tidak hanya mendownload video anda juga bisa mendapatkan komentar video</p>
+                <a href="/instagram?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  Pinterest Downloader</h5>
+                <p>Mampu untuk mengunduh video maupun gambar dari platform pinterest</p>
+                <a href="/pinterest?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  YouTube Mp4</h5>
+                <p>Memungkinkan anda untuk mengunduh audio dari platform YouTube</p>
+                <a href="/youtube-mp3?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="endpoint-box">
+                <h5><i class="fas fa-code"></i>  YouTube Mp3</h5>
+                <p>Memungkinkan anda untuk mengunduh video dari platform YouTube</p>
+                <a href="/youtube-mp4?url=" class="btn btn-primary">Cek API</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Fresh Rest Api</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
